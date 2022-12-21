@@ -1,0 +1,97 @@
+ul
+{
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+  background-color: #dddddd;
+  font-size: large;
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  color: #552583;
+}
+
+.l-header__branding {
+    display: block;
+    margin-bottom: -0.5rem;
+    width: 100%;
+    padding: 0.5rem;
+    text-align: center;
+    color: #5b678a;
+    font-size: 300%;
+}
+
+header
+{
+  display: block;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 80%;
+}
+
+.disabled {
+   background-color: #FDB927;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 5%
+}
+
+.section {
+    padding: 0.5rem 2rem 1rem 2rem;
+    color: #3a5c8f;
+}
+
+.section:hover {
+    background-color: #f5f5f5;
+    transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+button, input[type="submit"] {
+    background-color: #d9edff;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    font-size: 0.95rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0.375rem 0.75rem;
+    text-align: center;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    vertical-align: middle;
+}
+
+
+input[type="text"] {
+    line-height: 1.8;
+    width: 15%;
+}
+
+input[type="text"]:hover {
+    background-color: #f5f5f5;
+    transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+h3
+{
+  margin-top: 3%;
+}
+
+.games
+{
+  text-align: center;
+}
